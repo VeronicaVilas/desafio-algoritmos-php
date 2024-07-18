@@ -28,9 +28,9 @@
             function removeElement(&$nums, $val) {
                 $k = 0;
     
-                for ($i = 0; $i < count($nums); $i++) {
-                    if ($nums[$i] != $val) {
-                        $nums[$k] = $nums[$i];
+                for ($index = 0; $index < count($nums); $index++) {
+                    if ($nums[$index] != $val) {
+                        $nums[$k] = $nums[$index];
                         $k++;
                     }
                 }
